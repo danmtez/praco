@@ -1,0 +1,19 @@
+.vertical-nav {
+  position: fixed;
+  top: 50%;
+  left: 20px; /* Adjust this value as needed */
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust spacing between items */
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+  font-size: 18px; /* Adjust font size as needed */
+}
+
+.nav-item:hover {
+  color: blue; /* Change color on hover as desired */
+}

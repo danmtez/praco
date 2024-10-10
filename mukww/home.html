@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vertical Navigation</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .vertical-nav {
+  position: fixed;
+  top: 50%;
+  left: 20px; /* Adjust this value as needed */
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust spacing between items */
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+  font-size: 18px; /* Adjust font size as needed */
+}
+
+.nav-item:hover {
+  color: blue; /* Change color on hover as desired */
+}
+
+  </style>
+</head>
+<body>
+  <div class="vertical-nav">
+    <a href="#" class="nav-item">Home</a>
+    <a href="#" class="nav-item">About</a>
+    <a href="#" class="nav-item">Contact</a>
+  </div>
+</body>
+</html>
